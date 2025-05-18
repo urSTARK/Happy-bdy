@@ -15,7 +15,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('Oct 22, 2023 00:00:00').getTime(),
+let countDown = new Date('May 19, 2025 00:00:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -161,7 +161,7 @@ new TypeIt("#teks1", {
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["With or without me, may the universe always make you happy in whatever way it takes.", " ", "May God bless your life, thank you for surviving this far.", " ", "- Wish all you the best", "once again HAPPY BIRTHDAY MOJULIKAA aka Monali"],
+  strings: ["With or without me, may the universe always make you happy in whatever way it takes.", " ", "May God bless your life, thank you for surviving this far.", " ", "- Wish all you the best", "once again", "HAPPY BIRTHDAY MOJULIKAA", "aka Monali"],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
@@ -169,7 +169,7 @@ new TypeIt("#teks2", {
 
 
 new TypeIt("#trims", {
-  strings: ["Terimakasih."],
+  strings: ["Thank You."]Thank You,
   startDelay: 2000,
   speed: 150,
   loop: false,
