@@ -155,14 +155,14 @@ const _slideEnam = function () {
 
 new TypeIt("#teks1", {
   strings: ["Today, I offer all my best prayers for you.", "May the things that bring you down also become reasons for you to continue growing.", "May the world always protect you wherever you are.", "May your days always be filled with love that never has limits." , "May every step you take be made easy until you achieve what you want."],
-  startDelay: 3000,
+  startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
   strings: ["With or without me, may the universe always make you happy in whatever way it takes.", " ", "May God bless your life, thank you for surviving this far.", " ", "- Wish all you the best", "once again", "HAPPY BIRTHDAY MOJULIKAA", "aka Monali"],
-  startDelay: 1500,
+  startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
 }).go();
