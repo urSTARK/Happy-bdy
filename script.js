@@ -43,7 +43,7 @@ const _slideSatu = function () {
     document.body.addEventListener('click', function () {
       _slideDua();
     })
-  }, 100);
+  }, 1000);
 };
 
 const _slideDua = function () {
@@ -69,9 +69,9 @@ const _slideDua = function () {
       setTimeout(function () {
         slideDua.remove();
         _slideTiga();
-      }, 100);
+      }, 1000);
     })
-  }, 40000);
+  }, 400);
 };
 
 const _slideTiga = function () {
