@@ -69,7 +69,7 @@ const _slideDua = function () {
       setTimeout(function () {
         slideDua.remove();
         _slideTiga();
-      }, 1000);
+      }, 100);
     })
   }, 40000);
 };
