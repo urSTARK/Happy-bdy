@@ -43,7 +43,7 @@ const _slideSatu = function () {
     document.body.addEventListener('click', function () {
       _slideDua();
     })
-  }, 5000);
+  }, 100);
 };
 
 const _slideDua = function () {
