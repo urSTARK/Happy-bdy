@@ -71,7 +71,7 @@ const _slideDua = function () {
         _slideTiga();
       }, 1000);
     })
-  }, 400);
+  }, 30000);
 };
 
 const _slideTiga = function () {
