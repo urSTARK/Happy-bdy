@@ -90,7 +90,7 @@ const _slideTiga = function () {
         _slideEmpat();
       }, 1000);
     })
-  }, 25000);
+  }, 23000);
 }
 
 function getRandomPosition(element) {
@@ -445,6 +445,7 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+
 
 
 
