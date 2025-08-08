@@ -6,7 +6,7 @@ html {
 }
 .bg {
   /* Location of the image */
-  background-image: url(./img/background.jpg);
+  background-image: url(./img/1754647360977.mp4);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -211,6 +211,7 @@ a {
     background-position: -200% center;
   }
 }
+
 
 
 
