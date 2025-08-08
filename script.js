@@ -90,7 +90,7 @@ const _slideTiga = function () {
         _slideEmpat();
       }, 1000);
     })
-  }, 20000);
+  }, 25000);
 }
 
 function getRandomPosition(element) {
@@ -120,7 +120,7 @@ const _slideEmpat = function () {
       setTimeout(() => {
         _slideLima();
       }, 500);
-    }, 1000);
+    }, 500);
   })
 };
 
@@ -172,14 +172,14 @@ new TypeIt("#trims", {
   strings: ["Thank You."],
   startDelay: 2000,
   speed: 150,
+  loop: false,
   waitUntilVisible: true,
 }).go();
 
-new TypeIt("#trims", {
+new TypeIt("#teks2", {
   strings: ["Made by STARK", " ","Telegram : @urSTARK","INSTA : @ursSTARK"],
   startDelay: 2000,
   speed: 75,
-  loop: false,
   waitUntilVisible: true,
 }).go();
 
@@ -452,6 +452,7 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+
 
 
 
