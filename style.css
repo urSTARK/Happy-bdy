@@ -182,8 +182,11 @@ a {
   color: #D08DFF;
 }
 
+.footer {
+  background-color: green;
+}
+
 .footera {
-  color: red;
   background: radial-gradient(circle at 100%,
       #FFFFFF,
       #FF3A3A 50%,
@@ -201,6 +204,7 @@ a {
     background-position: -200% center;
   }
 }
+
 
 
 
