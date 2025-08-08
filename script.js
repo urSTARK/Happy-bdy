@@ -90,7 +90,7 @@ const _slideTiga = function () {
         _slideEmpat();
       }, 1000);
     })
-  }, 30000);
+  }, 3000);
 }
 
 function getRandomPosition(element) {
@@ -161,7 +161,7 @@ new TypeIt("#teks1", {
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["With or without me, may the universe always make you happy in whatever way it takes.", " ", "May God bless your life, thank you for surviving this far.", " ", "- Wish all you the best", "once again", "HAPPY BIRTHDAY MOJULIKAA", "aka Monali"],
+  strings: ["With or without me, may the universe always make you happy in whatever way it takes.", " ", "May God bless your life, thank you for surviving this far.", " ", "- Wish all you the best", "once again", "HAPPY BIRTHDAY ANSHIKA", ""],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
@@ -169,7 +169,7 @@ new TypeIt("#teks2", {
 
 
 new TypeIt("#trims", {
-  strings: ["Thank You."],
+  strings: ["Thank You.","","made by <a href="https://t.me/urstark">@urSTARK</a>"],
   startDelay: 2000,
   speed: 150,
   loop: false,
@@ -446,4 +446,5 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+
 
