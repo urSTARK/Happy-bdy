@@ -169,17 +169,10 @@ new TypeIt("#teks2", {
 
 
 new TypeIt("#trims", {
-  strings: ["Thank You."],
+  strings: ["Thank You."," "," ","Made by STARK", " ","Telegram : @urSTARK"],
   startDelay: 2000,
   speed: 150,
   loop: false,
-  waitUntilVisible: true,
-}).go();
-
-new TypeIt("#teks2", {
-  strings: ["Made by STARK", " ","Telegram : @urSTARK","INSTA : @ursSTARK"],
-  startDelay: 2000,
-  speed: 75,
   waitUntilVisible: true,
 }).go();
 
@@ -452,6 +445,7 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+
 
 
 
