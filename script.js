@@ -71,7 +71,7 @@ const _slideDua = function () {
         _slideTiga();
       }, 1000);
     })
-  }, 30000);
+  }, 33000);
 };
 
 const _slideTiga = function () {
@@ -120,7 +120,7 @@ const _slideEmpat = function () {
       setTimeout(() => {
         _slideLima();
       }, 500);
-    }, 500);
+    }, 1000);
   })
 };
 
@@ -176,14 +176,6 @@ new TypeIt("#trims", {
   waitUntilVisible: true,
 }).go();
 
-
-new TypeIt("#trims2", {
-  strings: ["Made by STARK", " ","Telegram : @urSTARK"],
-  startDelay: 2000,
-  speed: 150,
-  loop: false,
-  waitUntilVisible: true,
-}).go();
 
 
 'use strict';
@@ -454,6 +446,7 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+
 
 
 
