@@ -189,7 +189,7 @@ a {
       #FF5252 75%,
       #FF3A3A 75%);
     font-weight: 600;
-   /* background-size: 200% auto;*/
+    background-size: 200% auto;
     color: #000;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -200,3 +200,4 @@ a {
     background-position: -200% center;
   }
 }
+
