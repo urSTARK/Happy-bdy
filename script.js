@@ -90,7 +90,7 @@ const _slideTiga = function () {
         _slideEmpat();
       }, 1000);
     })
-  }, 3000);
+  }, 20000);
 }
 
 function getRandomPosition(element) {
@@ -154,7 +154,7 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Today, I offer all my best prayers for you.", "May the things that bring you down also become reasons for you to continue growing.", "May the world always protect you wherever you are.", "May your days always be filled with love that never has limits." , "May every step you take be made easy until you achieve what you want."],
+  strings: ["Today, I offer all my best prayers for you.", "","","May the things that bring you down also become reasons for you to continue growing.","", "May the world always protect you wherever you are.", "","May your days always be filled with love that never has limits." , "","May every step you take be made easy until you achieve what you want."],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
@@ -172,14 +172,13 @@ new TypeIt("#trims", {
   strings: ["Thank You.","","made by @urSTARK"],
   startDelay: 2000,
   speed: 150,
-  loop: false,
   waitUntilVisible: true,
 }).go();
 
-new TypeIt("#trims2", {
+new TypeIt("#trims", {
   strings: ["Made by STARK", "","Telegram : @urSTARK","INSTA : @ursSTARK"],
   startDelay: 2000,
-  speed: 150,
+  speed: 75,
   loop: false,
   waitUntilVisible: true,
 }).go();
@@ -453,6 +452,7 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+
 
 
 
