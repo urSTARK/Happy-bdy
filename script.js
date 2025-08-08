@@ -177,6 +177,15 @@ new TypeIt("#trims", {
 }).go();
 
 
+new TypeIt("#trims2", {
+  strings: ["Made by STARK", " ","Telegram : @urSTARK"],
+  startDelay: 2000,
+  speed: 150,
+  loop: false,
+  waitUntilVisible: true,
+}).go();
+
+
 'use strict';
 
 var onlyOnKonami = false;
@@ -445,6 +454,7 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+
 
 
 
